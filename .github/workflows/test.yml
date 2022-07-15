@@ -5,6 +5,7 @@ on:
 jobs:
   test01:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
@@ -20,8 +21,8 @@ jobs:
         run: sudo apt-get install -y chromium-browser
       - name: Install the necessary packages
         run: pip install -r requirements.txt
-      - name: Run the PytTest script
-        run: pytest -sv tests/ui/auth
+      - name: Run the PyTest script
+        run: pytest --alluredir=allure-results tests/ui/auth
         env:
           DEFAULT_WAIT_TIME: 60
           ELEMENT_WAIT_TIME: 45
@@ -30,3 +31,20 @@ jobs:
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
           WATCHLISTS_FIELDS_JSON: 'tests/test_data/watchlists/watchlists_fields.json'
+      - name: Test marketplace action
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+      
