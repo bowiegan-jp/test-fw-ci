@@ -1,0 +1,21 @@
+# .github/workflows/test01.yaml
+name: test_ci1
+on:
+  workflow_dispatch:  
+jobs:
+  test01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v3
+     #Setup Python   
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.7'
+      - name: Install Chrome Browser
+        run: sudo apt-get install -y chromium-browser
+      - name: Install the necessary packages
+        run: pip install -r requirements.txt
+      - name: Run the PytTest script
+        run: pytest -sv tests/ui/auth
