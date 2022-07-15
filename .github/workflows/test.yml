@@ -26,7 +26,7 @@ jobs:
         env:
           DEFAULT_WAIT_TIME: 30
           ELEMENT_WAIT_TIME: 15
-          FW_URL: 'https://console.aml-defender.com'
+          FW_URL: ${{ secrets.BASE_FW_URL }}
           SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule_temp.json'
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
