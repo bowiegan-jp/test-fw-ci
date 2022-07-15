@@ -33,6 +33,13 @@ jobs:
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
           WATCHLISTS_FIELDS_JSON: 'tests/test_data/watchlists/watchlists_fields.json'
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master
         if: always()
