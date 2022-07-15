@@ -5,7 +5,7 @@ on:
 jobs:
   test01:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 5
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
@@ -24,8 +24,8 @@ jobs:
       - name: Run the PyTest script
         run: pytest --alluredir=allure-results tests/ui/auth
         env:
-          DEFAULT_WAIT_TIME: 60
-          ELEMENT_WAIT_TIME: 45
+          DEFAULT_WAIT_TIME: 30
+          ELEMENT_WAIT_TIME: 15
           FW_URL: 'https://console.aml-defender.com'
           SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule_temp.json'
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
