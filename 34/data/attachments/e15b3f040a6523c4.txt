@@ -1,0 +1,4 @@
+{'api_version': '3',
+ 'fw_cust_code': 'XUNZZ53',
+ 'fw_cust_id': '60b7259c48675f1f9cf7c24c',
+ 'transaction_id_ext': 'tt_s4auth_error_yes_20220721_075721'}
