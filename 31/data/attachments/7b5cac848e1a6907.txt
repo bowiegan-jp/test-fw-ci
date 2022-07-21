@@ -1,0 +1,5 @@
+{'api_version': '4',
+ 'fw_cust_code': 'XUNZZ53',
+ 'fw_cust_id': '60b7259c48675f1f9cf7c24c',
+ 'transaction_channel': '2',
+ 'transaction_id_ext': 'tt_required_fields_omit_Mobile App_20220721_064957'}
