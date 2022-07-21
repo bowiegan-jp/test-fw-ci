@@ -15,7 +15,7 @@ jobs:
           ref: test/github_runner_ubuntu
       - name: Create Results & Screenshots Folder
         run: mkdir -p results/screenshots
-     #Setup Python   
+     #Setup Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -31,7 +31,7 @@ jobs:
         env:
           DEFAULT_WAIT_TIME: 30
           ELEMENT_WAIT_TIME: 15
-          FW_URL: ${{ secrets.BASE_FW_URL }}
+          FW_URL: 'https://10.20.20.221'
           SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule.json'
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
