@@ -4,7 +4,6 @@ on:
   workflow_dispatch:  
 jobs:
   test01:
-    options: --user root
     runs-on: self-hosted
     timeout-minutes: 5
     steps:
