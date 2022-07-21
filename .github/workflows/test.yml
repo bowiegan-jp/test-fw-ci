@@ -5,7 +5,7 @@ on:
 jobs:
   test01:
     runs-on: self-hosted
-    timeout-minutes: 20
+    timeout-minutes: 60
     steps:
       - name: Checkout JPT-TEST-FRAUDWALL
         uses: actions/checkout@v3
@@ -29,8 +29,8 @@ jobs:
       - name: Run FW Test Suite
         run: pytest --alluredir=allure-results -sv tests/end2end/transactions
         env:
-          DEFAULT_WAIT_TIME: 30
-          ELEMENT_WAIT_TIME: 15
+          DEFAULT_WAIT_TIME: 15
+          ELEMENT_WAIT_TIME: 5
           FW_URL: 'https://10.20.20.221'
           SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule.json'
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
