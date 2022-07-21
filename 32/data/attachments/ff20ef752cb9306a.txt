@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_s4review_blocked_20220721_070441',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}
