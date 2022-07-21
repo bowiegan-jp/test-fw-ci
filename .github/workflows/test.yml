@@ -27,7 +27,7 @@ jobs:
       - name: Install the necessary packages
         run: pip install -r requirements.txt
       - name: Run FW Test Suite
-        run: pytest --alluredir=allure-results -sv tests/end2end/transactions
+        run: pytest --alluredir=allure-results -sv tests/end2end/transactions/test_padded_fields.py
         env:
           DEFAULT_WAIT_TIME: 30
           ELEMENT_WAIT_TIME: 15
