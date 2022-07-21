@@ -1,0 +1,4 @@
+{'code': 290,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'test automation: pc_rs_hr_Preferred Currency'}

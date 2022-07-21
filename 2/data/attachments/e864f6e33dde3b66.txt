@@ -1,0 +1,6 @@
+{'code': 100,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'VIPlist: tvl_vl_over_sr_20220721_104242',
+ 'sendforauth': 1,
+ 'sendforreview': 1}

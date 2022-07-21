@@ -1,0 +1,6 @@
+{'code': 100,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'VIPlist: TVL_Payment Card Number_20220721_104355',
+ 'sendforauth': 1,
+ 'sendforreview': 1}

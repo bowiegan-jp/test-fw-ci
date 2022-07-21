@@ -1,0 +1,5 @@
+Groups parameter:
+{'field_type': 'Card Brand',
+ 'value_options': ['Custom:', 'Custom:'],
+ 'value_to_check': ['VISA', 'Maybank'],
+ 'values': ['VISA', 'Maybank']}
