@@ -1,0 +1,8 @@
+{'api_version': '3',
+ 'eci_value': '02',
+ 'fw_cust_code': 'XUNZZ53',
+ 'fw_cust_id': '60b7259c48675f1f9cf7c24c',
+ 'iso_response': '0',
+ 'transaction_auth_code': '12341234',
+ 'transaction_id_ext': 't_issresp_txnchnl_eMOTO_20220721_072855',
+ 'transaction_id_merch': '123'}
