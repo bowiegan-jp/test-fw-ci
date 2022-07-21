@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'User IP Address',
+ 'operator': 'Equals',
+ 'txn_update': {'user_ipv4': '127.0.1.5'},
+ 'value': '127.0.1.5',
+ 'value_option': 'IP Address:'}

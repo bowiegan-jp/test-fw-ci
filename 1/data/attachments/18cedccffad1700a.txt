@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Billing Amount_In Group_block_20220721_122040',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

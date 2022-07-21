@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Payment Card Expiry',
+ 'operator': 'Matches',
+ 'txn_update': {'cc_exp_date': '0525'},
+ 'value': '2025-05',
+ 'value_option': 'Custom Month:'}

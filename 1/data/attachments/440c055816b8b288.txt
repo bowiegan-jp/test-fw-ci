@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Email_Does not match_block_20220721_114439',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

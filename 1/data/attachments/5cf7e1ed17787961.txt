@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Billing Last Name',
+ 'operator': 'Matches',
+ 'txn_update': {'billing_lastname': 'TestAuto'},
+ 'value': 'TestAuto',
+ 'value_option': 'Custom:'}

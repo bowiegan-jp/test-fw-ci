@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': "Final User IP Address' Country",
+ 'operator': 'Matches',
+ 'txn_update': {'user_ipv6': '2a0d:9fc0::c12'},
+ 'value': None,
+ 'value_option': 'Singapore (SG)'}

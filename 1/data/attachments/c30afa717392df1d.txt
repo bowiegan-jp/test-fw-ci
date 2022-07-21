@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': "User IPv4 Address' Country",
+ 'operator': 'Matches',
+ 'txn_update': {'user_ipv4_country': 'SG'},
+ 'value': None,
+ 'value_option': 'Singapore (SG)'}

@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Payment Card Country_Txn Count_20220721_125447',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}
