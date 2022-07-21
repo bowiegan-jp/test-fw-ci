@@ -1,11 +1,11 @@
 # .github/workflows/test01.yaml
-name: test_ci1
+name: test_ci_smart_rules
 on:
   workflow_dispatch:  
 jobs:
   test01:
     runs-on: self-hosted
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - name: Checkout JPT-TEST-FRAUDWALL
         uses: actions/checkout@v3
@@ -27,7 +27,7 @@ jobs:
       - name: Install the necessary packages
         run: pip install -r requirements.txt
       - name: Run FW Test Suite
-        run: pytest --alluredir=allure-results -sv tests/end2end/transactions
+        run: pytest --alluredir=allure-results -sv tests/end2end/rules_console -m "indevelopment"
         env:
           DEFAULT_WAIT_TIME: 5
           ELEMENT_WAIT_TIME: 3
