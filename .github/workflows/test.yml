@@ -12,6 +12,7 @@ jobs:
         with:
           repository: jptd/JPT-TEST-FRAUDWALL
           token: ${{ secrets.GH_PAT }}
+          ref: test/github_runner_ubuntu
       - name: Create Results & Screenshots Folder
         run: mkdir -p results/screenshots
      #Setup Python   
