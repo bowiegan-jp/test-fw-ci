@@ -1,0 +1,62 @@
+# .github/workflows/test01.yaml
+name: test_ci_fw_regression_all
+on:
+  workflow_dispatch:  
+jobs:
+  test01:
+    runs-on: self-hosted
+    timeout-minutes: 240
+    steps:
+      - name: Checkout JPT-TEST-FRAUDWALL
+        uses: actions/checkout@v3
+        with:
+          repository: jptd/JPT-TEST-FRAUDWALL
+          token: ${{ secrets.GH_PAT }}
+          ref: test/github_runner_ubuntu
+      - name: Create Results & Screenshots Folder
+        run: mkdir -p results/screenshots
+     #Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.7'
+      - name: Install Chrome Browser
+        run: sudo apt-get install -y chromium-browser
+      - name: Install Chrome Driver
+        run: sudo apt-get install -y chromium-chromedriver
+      - name: Install the necessary packages
+        run: pip install -r requirements.txt
+      - name: Run FW Test Suite
+        run: pytest --alluredir=allure-results -m "regression"
+        env:
+          DEFAULT_WAIT_TIME: 5
+          ELEMENT_WAIT_TIME: 3
+          FW_URL: 'https://10.20.20.221'
+          SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule_fields_universal_v3.json'
+          GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
+          VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
+          WATCHLISTS_FIELDS_JSON: 'tests/test_data/watchlists/watchlists_fields.json'
+      - name: Get Allure history
+        uses: actions/checkout@v2
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
+      - name: Generate Allure Report
+        uses: simple-elf/allure-report-action@master
+        if: always()
+        id: allure-report
+        with:
+          allure_results: allure-results
+          gh_pages: gh-pages
+          allure_report: allure-report
+          allure_history: allure-history
+      - name: Deploy report to Github Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GH_PAT }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: allure-history
+      
