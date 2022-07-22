@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'IP Proxy Type',
+ 'operator': 'Matches',
+ 'txn_update': {'user_ipv4': '8.8.8.8'},
+ 'value': None,
+ 'value_option': 'DCH - Hosting Provider, Data Center or CDN'}

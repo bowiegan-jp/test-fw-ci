@@ -1,0 +1,7 @@
+{'code': 400,
+ 'decline_rule': "tr_User IPv6 Address' Country_Billing "
+                 'Currency_20220722_090820',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Payment Card Category',
+ 'operator': 'Matches',
+ 'txn_update': {'cc_category': 'GOLD'},
+ 'value': None,
+ 'value_option': 'GOLD'}

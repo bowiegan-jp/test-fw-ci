@@ -1,0 +1,5 @@
+Groups parameter:
+{'field_type': 'Merchant Category Code (MCC)',
+ 'value_options': ['Custom:', 'Custom:'],
+ 'value_to_check': ['5816', '5732'],
+ 'values': ['5816', '5732']}

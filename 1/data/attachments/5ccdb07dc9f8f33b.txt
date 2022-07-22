@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Transaction Time',
+ 'operator': 'After or on',
+ 'txn_update': {'transaction_gmt_datetime': '2030-06-01 02:00:00'},
+ 'value': '10:00:00',
+ 'value_option': 'Custom Time:'}

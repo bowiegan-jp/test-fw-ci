@@ -1,0 +1,6 @@
+{'code': 300,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'tr_Email_Matches_allow_20220722_080416',
+ 'sendforauth': 1,
+ 'sendforreview': 0}

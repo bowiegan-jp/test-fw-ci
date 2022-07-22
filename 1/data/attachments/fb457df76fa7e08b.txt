@@ -1,0 +1,6 @@
+{'code': 200,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': '',
+ 'sendforauth': 1,
+ 'sendforreview': 0}

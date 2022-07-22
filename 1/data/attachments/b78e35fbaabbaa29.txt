@@ -1,0 +1,2 @@
+WARNING  root:conftest.py:243 Smart rule cleanup did not run as expected: Message: element click intercepted: Element <a href="/rules" title="Smart Rules" class="active">...</a> is not clickable at point (100, 164). Other element would receive the click: <div class="alerty-overlay active" tabindex="-1" id="overlay-alerty434103"></div>
+  (Session info: headless chrome=103.0.5060.114)

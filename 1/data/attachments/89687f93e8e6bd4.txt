@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Payment Card Last Name',
+ 'operator': 'Matches',
+ 'txn_update': {'cc_lastname': 'TestAuto'},
+ 'value': 'TestAuto',
+ 'value_option': 'Custom:'}

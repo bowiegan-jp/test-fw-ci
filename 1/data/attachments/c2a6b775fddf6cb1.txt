@@ -1,0 +1,1 @@
+WARNING  root:conftest.py:243 Smart rule cleanup did not run as expected: Message:

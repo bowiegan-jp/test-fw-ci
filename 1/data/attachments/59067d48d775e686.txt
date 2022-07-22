@@ -1,0 +1,7 @@
+{'code': 500,
+ 'decline_rule': None,
+ 'error': True,
+ 'errors': {'cc_last_digits': ['This field is required.']},
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 0}

@@ -1,0 +1,6 @@
+{'code': 300,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'tr_Payment Card BIN_Matches_allow_20220722_081653',
+ 'sendforauth': 1,
+ 'sendforreview': 0}

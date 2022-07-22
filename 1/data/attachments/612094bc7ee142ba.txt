@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Transaction Date_Matches_notify,block_20220722_085923',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

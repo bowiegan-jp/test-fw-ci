@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'Watchlist: TWL_Payment Card Number_20220722_094613',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

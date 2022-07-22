@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Payment Card Category_Preferred Currency_20220722_091842',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

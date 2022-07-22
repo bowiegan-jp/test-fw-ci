@@ -1,0 +1,6 @@
+VIPlists parameter:
+{'field_type': 'Email',
+ 'txn_update': {'user_email': 'test_automation@jewel.com'},
+ 'value_options': ['Email:', 'Email:'],
+ 'value_to_check': ['test_automation@jewel.com', 'test_automation2@jewel.com'],
+ 'values': ['test_automation@jewel.com', 'test_automation2@jewel.com']}

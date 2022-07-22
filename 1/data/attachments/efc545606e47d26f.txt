@@ -1,0 +1,5 @@
+Groups parameter:
+{'field_type': 'Date (DDMMYYYY)',
+ 'value_options': ['Date and Time:', 'Date and Time:'],
+ 'value_to_check': ['2020-09-15 00:01:00', '2021-03-15 08:15:00'],
+ 'values': ['2020-09-15 00:01:00', '2021-03-15 08:15:00']}
