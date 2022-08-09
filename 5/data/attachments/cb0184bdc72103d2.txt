@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Country',
- 'value_options': ['Singapore (SG)', 'Iceland (IS)'],
- 'value_to_check': ['Singapore (SG)', 'Iceland (IS)'],
- 'values': [None, None]}

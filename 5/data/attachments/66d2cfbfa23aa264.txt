@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Transaction Date_Before or on_block_20220809_093913',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': "tr_Final User IP Address' Country_Txn Count_20220809_094635",
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

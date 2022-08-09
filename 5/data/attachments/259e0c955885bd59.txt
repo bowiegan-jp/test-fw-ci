@@ -1,4 +1,0 @@
-{'code': 400,
- 'decline_rule': 't_tc_rs_wl_Txn Count',
- 'error': False,
- 'score_reason': None}

@@ -1,8 +1,0 @@
-{'api_version': '4',
- 'eci_value': '02',
- 'fw_cust_code': 'XUNZZ53',
- 'fw_cust_id': '60b7259c48675f1f9cf7c24c',
- 'iso_response': 'RDM',
- 'transaction_auth_code': '12341234',
- 'transaction_id_ext': 't_issresp_override_20220809_105714',
- 'transaction_id_merch': '123'}

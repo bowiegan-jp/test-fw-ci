@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Payment Card BIN',
- 'operator': 'Matches',
- 'txn_update': {'cc_bin': '520082'},
- 'value': '520082',
- 'value_option': 'Custom:'}

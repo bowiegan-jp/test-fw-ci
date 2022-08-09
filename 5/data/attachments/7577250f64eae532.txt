@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Payment Card Country',
- 'operator': 'Matches',
- 'txn_update': {'cc_country': 'SG'},
- 'value': None,
- 'value_option': 'Singapore (SG)'}

@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': "tr_User IPv4 Address' Country_Txn Count_20220809_094452",
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

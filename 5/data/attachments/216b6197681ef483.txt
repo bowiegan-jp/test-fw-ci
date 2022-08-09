@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Dollar amount',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['1000', '555'],
- 'values': ['1000', '555']}

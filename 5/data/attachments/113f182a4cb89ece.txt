@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'User is Registered',
- 'operator': 'Matches',
- 'txn_update': {'user_registered': '1'},
- 'value': None,
- 'value_option': 'Yes'}

@@ -1,8 +1,0 @@
-Watchlists parameter:
-{'field_type': 'IPv6 Address',
- 'txn_update': {'user_ipv6': '70d9:3dbb:2508:ee85:f23e:a831:90ce:a77e'},
- 'value_options': ['IP Address v6:', 'IP Address v6:'],
- 'value_to_check': ['70d9:3dbb:2508:ee85:f23e:a831:90ce:a77e',
-                    '2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF'],
- 'values': ['70d9:3dbb:2508:ee85:f23e:a831:90ce:a77e',
-            '2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF']}

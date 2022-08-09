@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Billing Currency',
- 'operator': 'Matches',
- 'txn_update': {'billing_currency': 'USD'},
- 'value': None,
- 'value_option': 'USD (US Dollar)'}

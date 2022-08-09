@@ -1,6 +1,0 @@
-VIPlists parameter:
-{'field_type': 'Payment Card Number',
- 'txn_update': {'cc_hash': 'b40e9bc7a74d50ab4f006ab0d3e85a8b96a5092989d5934623555f94ae48c836'},
- 'value_options': ['Payment Card Number', 'Payment Card Number'],
- 'value_to_check': ['5200828282828210', '4000056655665556'],
- 'values': ['5200828282828210', '4000056655665556']}

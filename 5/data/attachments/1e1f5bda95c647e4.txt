@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Card Organization',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['Jewelpaymentech', 'Citibank'],
- 'values': ['Jewelpaymentech', 'Citibank']}

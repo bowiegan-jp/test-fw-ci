@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Payment Card Type',
- 'operator': 'Matches',
- 'txn_update': {'cc_type': 'DEBIT'},
- 'value': None,
- 'value_option': 'DEBIT'}

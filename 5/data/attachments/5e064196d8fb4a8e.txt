@@ -1,8 +1,0 @@
-{'code': 500,
- 'decline_rule': None,
- 'error': True,
- 'errors': {'cc_last_digits': ['This field with cc_bin must be at most 10 '
-                               'characters long.']},
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 0}

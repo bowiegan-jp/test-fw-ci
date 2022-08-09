@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Merchant ID',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['TG-001', 'TG-002'],
- 'values': ['TG-001', 'TG-002']}

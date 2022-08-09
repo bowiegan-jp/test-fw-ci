@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Payment Card Brand',
- 'operator': 'Matches',
- 'txn_update': {'cc_brand': 'CHINA UNION PAY'},
- 'value': 'CHINA UNION PAY',
- 'value_option': 'Custom:'}

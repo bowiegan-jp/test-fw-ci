@@ -1,1 +1,0 @@
-{'code': 200, 'decline_rule': None, 'error': False, 'score_reason': ''}
