@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Billing Country',
- 'operator': 'Matches',
- 'txn_update': {'billing_country_alpha2': 'SG'},
- 'value': None,
- 'value_option': 'Singapore (SG)'}

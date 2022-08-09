@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Browser Header',
- 'operator': 'Matches',
- 'txn_update': {'browser_header': 'Firefox/47.3'},
- 'value': 'Firefox/47.3',
- 'value_option': 'Custom:'}

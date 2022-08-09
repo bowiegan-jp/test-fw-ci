@@ -1,7 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Payment Card First Name_Does not '
-                 'contain_block_20220721_114752',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

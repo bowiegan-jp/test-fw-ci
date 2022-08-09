@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Email',
- 'value_options': ['Email:', 'Email:'],
- 'value_to_check': ['tony_stark@test.com', 'steve_rodgers@test.com'],
- 'values': ['tony_stark@test.com', 'steve_rodgers@test.com']}

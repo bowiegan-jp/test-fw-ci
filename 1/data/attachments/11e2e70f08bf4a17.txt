@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_User IP Address_Not In Group_block_20220722_075149',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

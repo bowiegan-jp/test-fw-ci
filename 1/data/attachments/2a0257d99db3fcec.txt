@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Merchant Group ID',
- 'operator': 'Matches',
- 'txn_update': {'merch_group_id': '53935'},
- 'value': '53935',
- 'value_option': 'Custom:'}

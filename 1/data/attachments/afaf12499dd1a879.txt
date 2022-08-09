@@ -1,7 +1,0 @@
-{'code': 400,
- 'decline_rule': "tr_Final User IP Address' Country_Not In "
-                 'Group_block_20220721_114139',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

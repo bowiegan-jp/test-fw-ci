@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Payment Card Country_Matches_notify,block_20220721_115756',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

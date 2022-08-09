@@ -1,6 +1,0 @@
-{'code': 290,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'test automation: Browser Header_add_score',
- 'sendforauth': 0,
- 'sendforreview': 1}

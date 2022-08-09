@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Billing Address_Does not contain_block_20220722_083110',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

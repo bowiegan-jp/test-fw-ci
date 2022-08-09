@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Shipping State_Does not contain_block_20220721_122639',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

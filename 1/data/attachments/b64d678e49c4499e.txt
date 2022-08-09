@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Browser Header_Does not contain_block_20220722_074830',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Billing Postal Code_Txn Count_20220721_130158',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

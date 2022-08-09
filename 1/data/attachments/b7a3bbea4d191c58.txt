@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Shipping Postal Code',
- 'operator': 'Matches',
- 'txn_update': {'shipping_postal_code': '54321'},
- 'value': '54321',
- 'value_option': 'Custom:'}

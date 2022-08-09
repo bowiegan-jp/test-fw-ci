@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'Watchlist: TWL_IPv6 Address_20220722_094644',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

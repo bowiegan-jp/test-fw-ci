@@ -1,6 +1,0 @@
-{'code': 100,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'VIPlist: TVL_IPv6 Address_20220722_094535',
- 'sendforauth': 1,
- 'sendforreview': 1}

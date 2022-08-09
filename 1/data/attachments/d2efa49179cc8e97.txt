@@ -1,6 +1,0 @@
-{'code': 300,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'tsr_wl_over_sr_20220722_074026',
- 'sendforauth': 1,
- 'sendforreview': 0}

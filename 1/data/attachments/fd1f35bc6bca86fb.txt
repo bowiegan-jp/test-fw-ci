@@ -1,6 +1,0 @@
-{'code': 299,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'test automation: Transaction Datetime_add_score',
- 'sendforauth': 0,
- 'sendforreview': 1}

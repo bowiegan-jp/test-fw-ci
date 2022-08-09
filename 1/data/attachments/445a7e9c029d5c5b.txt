@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Shipping First Name',
- 'operator': 'Matches',
- 'txn_update': {'shipping_firstname': 'TestAuto'},
- 'value': 'TestAuto',
- 'value_option': 'Custom:'}

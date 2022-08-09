@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Card Category',
- 'value_options': ['BONUS', 'CLASSIC'],
- 'value_to_check': ['BONUS', 'CLASSIC'],
- 'values': [None, None]}

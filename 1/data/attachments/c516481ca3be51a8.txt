@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Merchant Category Code (MCC)',
- 'operator': 'Matches',
- 'txn_update': {'merch_cat_code': '1234'},
- 'value': '1234',
- 'value_option': 'Custom:'}

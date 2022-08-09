@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Billing Amount_Equals_block_20220722_083922',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,7 +1,0 @@
-Groups parameter:
-{'field_type': 'IPv6 Address',
- 'value_options': ['IP Address v6:', 'IP Address v6:'],
- 'value_to_check': ['2001:db8:3333:4444:5555:6666:7777:8888',
-                    '2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF'],
- 'values': ['2001:db8:3333:4444:5555:6666:7777:8888',
-            '2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF']}

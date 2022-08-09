@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Shipping Last Name_Matches_notify,block_20220721_122338',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,4 +1,0 @@
-{'code': 400,
- 'decline_rule': 't_pc_rs_hr_Preferred Currency',
- 'error': False,
- 'score_reason': None}

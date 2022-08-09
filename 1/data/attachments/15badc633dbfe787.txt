@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Billing Amount_Billing Currency_20220722_092608',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

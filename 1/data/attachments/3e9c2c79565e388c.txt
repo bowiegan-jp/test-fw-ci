@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Shipping Last Name_Txn Count_20220721_130625',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

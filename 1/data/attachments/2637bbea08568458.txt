@@ -1,6 +1,0 @@
-{'code': 300,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'tr_Billing State_Matches_allow_20220721_121219',
- 'sendforauth': 1,
- 'sendforreview': 0}

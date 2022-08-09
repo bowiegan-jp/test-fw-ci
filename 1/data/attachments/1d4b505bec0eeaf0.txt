@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Payment Card Expiry_Before_block_20220721_115244',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Billing State',
- 'operator': 'Matches',
- 'txn_update': {'billing_state': 'test_automation'},
- 'value': 'test_automation',
- 'value_option': 'Custom:'}

@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Payment Card BIN',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['424242', '555555'],
- 'values': ['424242', '555555']}

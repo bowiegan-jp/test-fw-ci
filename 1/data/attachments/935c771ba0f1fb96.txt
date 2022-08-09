@@ -1,6 +1,0 @@
-{'code': 300,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'tr_Merchant ID_Matches_allow_20220722_074253',
- 'sendforauth': 1,
- 'sendforreview': 0}

@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Postcode',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['616', '10880'],
- 'values': ['616', '10880']}

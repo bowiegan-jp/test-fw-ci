@@ -1,4 +1,0 @@
-{'code': 400,
- 'decline_rule': 't_bc_rs_b_Billing Currency',
- 'error': False,
- 'score_reason': None}

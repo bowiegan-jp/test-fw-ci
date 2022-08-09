@@ -1,4 +1,0 @@
-{'code': 290,
- 'decline_rule': None,
- 'error': False,
- 'score_reason': 'test automation: bc_rs_hr_Billing Currency'}

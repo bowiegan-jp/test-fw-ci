@@ -1,6 +1,0 @@
-{'code': 400,
- 'decline_rule': 'tr_Merchant ID_In Group_block_20220721_112333',
- 'error': False,
- 'score_reason': None,
- 'sendforauth': 0,
- 'sendforreview': 1}

@@ -1,6 +1,0 @@
-Smart Rule parameter:
-{'field': 'Email',
- 'operator': 'Matches',
- 'txn_update': {'user_email': 'test_automation@jewel.com'},
- 'value': 'test_automation@jewel.com',
- 'value_option': 'Email:'}
