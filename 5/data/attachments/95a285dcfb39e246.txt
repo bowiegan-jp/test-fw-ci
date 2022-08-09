@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Transaction Datetime',
+ 'operator': 'Matches',
+ 'txn_update': {'transaction_gmt_datetime': '2030-06-01 00:00:00'},
+ 'value': '2030-06-01 08:00:00',
+ 'value_option': 'Date and Time:'}

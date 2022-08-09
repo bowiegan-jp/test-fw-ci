@@ -1,0 +1,5 @@
+Groups parameter:
+{'field_type': 'IP Proxy Type',
+ 'value_options': ['VPN - Anonymizing VPN Services', 'PUB - Public Proxies'],
+ 'value_to_check': ['VPN - Anonymizing VPN Services', 'PUB - Public Proxies'],
+ 'values': [None, None]}

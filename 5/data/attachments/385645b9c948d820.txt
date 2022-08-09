@@ -1,0 +1,6 @@
+{'code': 271,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'test automation score',
+ 'sendforauth': 0,
+ 'sendforreview': 1}

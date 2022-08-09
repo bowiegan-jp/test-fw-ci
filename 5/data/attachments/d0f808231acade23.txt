@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Shipping Address',
+ 'operator': 'Matches',
+ 'txn_update': {'shipping_address': '11 test_automation'},
+ 'value': '11 test_automation',
+ 'value_option': 'Custom:'}

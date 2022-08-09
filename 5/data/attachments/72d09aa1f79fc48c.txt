@@ -1,0 +1,6 @@
+{'code': 100,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'VIPlist: TVL_IP Proxy Type_20220809_102511',
+ 'sendforauth': 1,
+ 'sendforreview': 1}

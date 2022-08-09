@@ -1,0 +1,6 @@
+{'code': 400,
+ 'decline_rule': 'tr_Payment Card Last Name_Not In Group_block_20220809_085037',
+ 'error': False,
+ 'score_reason': None,
+ 'sendforauth': 0,
+ 'sendforreview': 1}

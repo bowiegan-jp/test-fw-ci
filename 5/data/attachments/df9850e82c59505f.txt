@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Billing Amount',
+ 'operator': 'Equals',
+ 'txn_update': {'billing_amt': '1001'},
+ 'value': '1001',
+ 'value_option': 'Custom:'}

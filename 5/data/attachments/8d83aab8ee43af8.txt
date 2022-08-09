@@ -1,0 +1,5 @@
+Groups parameter:
+{'field_type': 'Card Type',
+ 'value_options': ['DEBIT', 'CREDIT'],
+ 'value_to_check': ['DEBIT', 'CREDIT'],
+ 'values': [None, None]}

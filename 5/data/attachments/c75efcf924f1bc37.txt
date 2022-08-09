@@ -1,0 +1,8 @@
+VIPlists parameter:
+{'field_type': 'IP Proxy Type',
+ 'txn_update': {'user_ipv4': '8.8.8.8'},
+ 'value_options': ['DCH - Hosting Provider, Data Center or CDN',
+                   'VPN - Anonymizing VPN Services'],
+ 'value_to_check': ['DCH - Hosting Provider, Data Center or CDN',
+                    'VPN - Anonymizing VPN Services'],
+ 'values': [None, None]}

@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Billing Address',
+ 'operator': 'Matches',
+ 'txn_update': {'billing_address': '11 test_automation'},
+ 'value': '11 test_automation',
+ 'value_option': 'Custom:'}

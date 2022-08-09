@@ -1,0 +1,6 @@
+Smart Rule parameter:
+{'field': 'Merchant ID',
+ 'operator': 'Matches',
+ 'txn_update': {'merch_id': 'FW-001'},
+ 'value': 'FW-001',
+ 'value_option': 'Custom:'}
