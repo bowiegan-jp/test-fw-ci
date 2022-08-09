@@ -1,0 +1,133 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Aug 09 05:55:40 GMT 2022","Tue Aug 09 05:55:56 GMT 2022","15393","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:54:23 GMT 2022","Tue Aug 09 05:54:38 GMT 2022","15077","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:45:36 GMT 2022","Tue Aug 09 05:45:58 GMT 2022","22279","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:56:00 GMT 2022","Tue Aug 09 05:56:00 GMT 2022","648","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 06:00:34 GMT 2022","Tue Aug 09 06:00:43 GMT 2022","8979","tests.end2end.transactions.test_send_for_review","test_s4r_viplist_txn","TestSendForReviewVIPlist","","","Send for Review - VIPlisted transaction (Default, not including viplisted)","
+        Transactions that are viplisted ONLY
+        Account settings include viplisted NOT selected
+        Expectation SendForReview should be 0 on default
+        "
+"passed","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","39","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"skipped","Tue Aug 09 05:55:59 GMT 2022","Tue Aug 09 05:55:59 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:47:49 GMT 2022","Tue Aug 09 05:48:11 GMT 2022","22120","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:59:12 GMT 2022","Tue Aug 09 05:59:22 GMT 2022","10413","tests.end2end.transactions.test_send_for_review","test_s4r_blocked_txn","TestSendForReviewBlocked","","","Send for Review - Blocked Transaction (Default, not including blocked)","
+        Transactions that are declined (blocked) via smart rules
+        Account Settings - Include blocked not selected
+        Expectation SendForReview should be 0
+        "
+"passed","Tue Aug 09 05:58:26 GMT 2022","Tue Aug 09 05:58:36 GMT 2022","9651","tests.end2end.transactions.test_send_for_review","test_s4r_allowed_txn","TestSendForReviewAllowed","","","Send for Review - Passthrough Transaction","
+        Transactions that are allowed to passthrough via smart rules
+        Expectation SendForReview should be 0
+        "
+"passed","Tue Aug 09 05:53:37 GMT 2022","Tue Aug 09 05:53:52 GMT 2022","15424","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:55:59 GMT 2022","Tue Aug 09 05:56:00 GMT 2022","643","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 06:00:48 GMT 2022","Tue Aug 09 06:00:57 GMT 2022","8349","tests.end2end.transactions.test_send_for_review","test_s4r_viplist_txn","TestSendForReviewVIPlist","","","Send for Review - VIPlisted (include viplisted)","
+        Test transactions that are VIPListed
+        Account settings 'include VIPlisted transactions' selected
+        Expected sendforreview should be 1
+        "
+"skipped","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"skipped","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"skipped","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:58:40 GMT 2022","Tue Aug 09 05:58:59 GMT 2022","19408","tests.end2end.transactions.test_send_for_review","test_s4r_allowed_txn","TestSendForReviewAllowed","","","Send for Review - Passthrough and Scored Transaction","
+        Transactions that hit both an allow to passthrough smart rule
+        and a scored high risk smart rule
+        "
+"passed","Tue Aug 09 05:55:57 GMT 2022","Tue Aug 09 05:55:57 GMT 2022","648","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:55:58 GMT 2022","Tue Aug 09 05:55:59 GMT 2022","647","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:55:25 GMT 2022","Tue Aug 09 05:55:40 GMT 2022","15368","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"skipped","Tue Aug 09 05:56:00 GMT 2022","Tue Aug 09 05:56:00 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:53:22 GMT 2022","Tue Aug 09 05:53:37 GMT 2022","14847","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","32","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:49:49 GMT 2022","Tue Aug 09 05:50:21 GMT 2022","31986","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:59:48 GMT 2022","Tue Aug 09 05:59:49 GMT 2022","1001","tests.end2end.transactions.test_send_for_review","test_s4r_error_txn","TestSendForReviewErrored","","","Send for Review - Error (No)","
+        Transactions that are errored (code 500)
+        Expectation SendForReview should match settings configured in account settings
+        Setting Send for Review set to (No)
+        Expectation sendforreview = 0
+        "
+"passed","Tue Aug 09 05:52:33 GMT 2022","Tue Aug 09 05:53:16 GMT 2022","43854","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Override",""
+"passed","Tue Aug 09 05:57:53 GMT 2022","Tue Aug 09 05:58:11 GMT 2022","18276","tests.end2end.transactions.test_send_for_auth","test_s4a_viplist_txn","TestSendForAuthVIPlist","","","Send for Auth - VIPlisted and Scored transaction","
+        Test transactions that hit both VIPlist and high risk scoring smart rule
+        Only VIPlist should be respected in the output
+        Expected sendforauth should be 1
+        "
+"skipped","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","42","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:48:11 GMT 2022","Tue Aug 09 05:48:33 GMT 2022","21850","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:54:08 GMT 2022","Tue Aug 09 05:54:23 GMT 2022","15137","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:50:54 GMT 2022","Tue Aug 09 05:51:27 GMT 2022","32993","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:52:00 GMT 2022","Tue Aug 09 05:52:32 GMT 2022","32517","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:54:38 GMT 2022","Tue Aug 09 05:54:54 GMT 2022","16006","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:46:42 GMT 2022","Tue Aug 09 05:47:05 GMT 2022","22536","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:59:26 GMT 2022","Tue Aug 09 05:59:37 GMT 2022","10904","tests.end2end.transactions.test_send_for_review","test_s4r_blocked_txn","TestSendForReviewBlocked","","","Send for Review - Blocked Transaction (Include Blocked)","
+        Transactions that are declined (blocked) via smart rules
+        Account Settings - Include blocked IS selected
+        Expectation SendForReview should be 1
+        "
+"passed","Tue Aug 09 05:56:06 GMT 2022","Tue Aug 09 05:56:25 GMT 2022","19008","tests.end2end.transactions.test_send_for_auth","test_s4a_allowed_txn","TestSendForAuthAllowed","","","Send for Auth - Passthrough and Scored Transaction","
+        Transactions that hit both an allow to passthrough smart rule
+        and a scored high risk smart rule
+        "
+"passed","Tue Aug 09 05:57:39 GMT 2022","Tue Aug 09 05:57:48 GMT 2022","8463","tests.end2end.transactions.test_send_for_auth","test_s4a_viplist_txn","TestSendForAuthVIPlist","","","Send for Auth - VIPlisted transaction","
+        Transactions that are viplisted ONLY
+        Expectation SendForAuth should be 1
+        "
+"passed","Tue Aug 09 05:47:27 GMT 2022","Tue Aug 09 05:47:49 GMT 2022","21824","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:51:28 GMT 2022","Tue Aug 09 05:52:00 GMT 2022","32367","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:55:57 GMT 2022","Tue Aug 09 05:55:58 GMT 2022","652","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 06:00:14 GMT 2022","Tue Aug 09 06:00:25 GMT 2022","10838","tests.end2end.transactions.test_send_for_review","test_s4r_scored_txn","TestSendForReviewScored","","","Send for Review - High Risk Transaction","
+        Transactions that are scored ABOVE risk threshold
+        Expectation SendForReview should be 1
+        "
+"passed","Tue Aug 09 05:47:05 GMT 2022","Tue Aug 09 05:47:27 GMT 2022","21711","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"skipped","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:57:04 GMT 2022","Tue Aug 09 05:57:14 GMT 2022","10630","tests.end2end.transactions.test_send_for_auth","test_s4a_scored_txn","TestSendForAuthScored","","","Send for Auth - Low Risk Transaction","
+        Transactions that are scored BELOW risk threshold
+        Expectation SendForAuth should be 1
+        "
+"skipped","Tue Aug 09 05:56:00 GMT 2022","Tue Aug 09 05:56:00 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:48:33 GMT 2022","Tue Aug 09 05:48:54 GMT 2022","21755","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:57:19 GMT 2022","Tue Aug 09 05:57:30 GMT 2022","11111","tests.end2end.transactions.test_send_for_auth","test_s4a_scored_txn","TestSendForAuthScored","","","Send for Auth - High Risk Transaction","
+        Transactions that are scored ABOVE risk threshold
+        Expectation SendForAuth should be 0
+        "
+"passed","Tue Aug 09 05:46:20 GMT 2022","Tue Aug 09 05:46:42 GMT 2022","22105","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:54:54 GMT 2022","Tue Aug 09 05:55:09 GMT 2022","15290","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:55:09 GMT 2022","Tue Aug 09 05:55:25 GMT 2022","15190","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:56:56 GMT 2022","Tue Aug 09 05:56:57 GMT 2022","714","tests.end2end.transactions.test_send_for_auth","test_s4a_error_txn","TestSendForAuthErrored","","","Send for Auth - Error (Yes)","
+        Transactions that are errored (code 500)
+        Expectation SendForAuth should match settings configured in account settings
+        Setting Send for Authorisation set to (Yes)
+        Expectation sendforauth = 1
+        "
+"passed","Tue Aug 09 05:59:47 GMT 2022","Tue Aug 09 05:59:48 GMT 2022","873","tests.end2end.transactions.test_send_for_review","test_s4r_error_txn","TestSendForReviewErrored","","","Send for Review - Error (Yes)","
+        Transactions that are errored (code 500)
+        Expectation SendForReview should match settings configured in account settings
+        Setting Send for Review set to (Yes)
+        Expectation sendforreview = 1
+        "
+"passed","Tue Aug 09 05:48:55 GMT 2022","Tue Aug 09 05:49:16 GMT 2022","21874","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:56:57 GMT 2022","Tue Aug 09 05:56:58 GMT 2022","820","tests.end2end.transactions.test_send_for_auth","test_s4a_error_txn","TestSendForAuthErrored","","","Send for Auth - Error (No)","
+        Transactions that are errored (code 500)
+        Expectation SendForAuth should match settings configured in account settings
+        Setting Send for Authorisation set to (No)
+        Expectation sendforauth = 0
+        "
+"skipped","Tue Aug 09 05:55:59 GMT 2022","Tue Aug 09 05:55:59 GMT 2022","0","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:49:17 GMT 2022","Tue Aug 09 05:49:48 GMT 2022","31982","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:50:21 GMT 2022","Tue Aug 09 05:50:54 GMT 2022","33667","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Reponse Approval Status",""
+"passed","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","34","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:53:52 GMT 2022","Tue Aug 09 05:54:08 GMT 2022","15303","tests.end2end.transactions","test_padded_fields","TestPaddedFields","","","Transaction API Padded Fields",""
+"passed","Tue Aug 09 05:56:37 GMT 2022","Tue Aug 09 05:56:47 GMT 2022","9701","tests.end2end.transactions.test_send_for_auth","test_s4a_blocked_txn","TestSendForAuthBlocked","","","Send for Auth - Blocked Transaction","
+        Transactions that are declined (blocked) via smart rules
+        Expectation SendForAuth should be 0
+        "
+"passed","Tue Aug 09 05:45:58 GMT 2022","Tue Aug 09 05:46:20 GMT 2022","21882","tests.end2end.transactions","test_issuer_response","TestIssuerReponse","","","Issuer Response Channels",""
+"passed","Tue Aug 09 05:56:01 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","34","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields Error Message",""
+"passed","Tue Aug 09 05:56:00 GMT 2022","Tue Aug 09 05:56:01 GMT 2022","646","tests.end2end.transactions","test_required_fields","TestTxnAPIRequiredFields","","","Test Transaction API Required Fields",""
+"passed","Tue Aug 09 05:59:59 GMT 2022","Tue Aug 09 06:00:10 GMT 2022","10880","tests.end2end.transactions.test_send_for_review","test_s4r_scored_txn","TestSendForReviewScored","","","Send for Review - Low Risk Transaction","
+        Transactions that are scored BELOW risk threshold
+        Expectation SendForReview should be 0
+        "
