@@ -34,9 +34,9 @@ jobs:
           FW_URL: ${{ secrets.FW_URL }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
           TEST_PWD: ${{ secrets.GH_PAT }}
-          FW_CUST_ID: ${{ FW_CUST_ID }}
-          FW_CUST_CODE: ${{ FW_CUST_CODE }}
-          FW_API_VERSION: ${{ FW_API_VERSION }}
+          FW_CUST_ID: ${{ secrets.FW_CUST_ID }}
+          FW_CUST_CODE: ${{ secrets.FW_CUST_CODE }}
+          FW_API_VERSION: ${{ secrets.FW_API_VERSION }}
           SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule_fields_universal_v3.json'
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
