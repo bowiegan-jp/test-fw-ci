@@ -41,6 +41,21 @@ jobs:
           GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
           VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
           WATCHLISTS_FIELDS_JSON: 'tests/test_data/watchlists/watchlists_fields.json'
+      - name: Retry Failed Tests
+        run: pytest --alluredir=allure-results -sv tests/end2end/transactions --lf
+        env:
+          DEFAULT_WAIT_TIME: 5
+          ELEMENT_WAIT_TIME: 3
+          FW_URL: 'https://10.20.20.221'
+          TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
+          TEST_PWD: ${{ secrets.TEST_PWD }}
+          FW_CUST_ID: ${{ secrets.FW_CUST_ID }}
+          FW_CUST_CODE: ${{ secrets.FW_CUST_CODE }}
+          FW_API_VERSION: ${{ secrets.FW_API_VERSION }}
+          SMART_RULES_FIELDS_JSON: 'tests/test_data/smart_rules/smart_rule_fields_universal_v3.json'
+          GROUPS_FIELDS_JSON: 'tests/test_data/groups/groups_fields.json'
+          VIPLISTS_FIELDS_JSON: 'tests/test_data/viplists/viplists_fields.json'
+          WATCHLISTS_FIELDS_JSON: 'tests/test_data/watchlists/watchlists_fields.json'
       - name: Get Allure history
         uses: actions/checkout@v2
         if: always()
