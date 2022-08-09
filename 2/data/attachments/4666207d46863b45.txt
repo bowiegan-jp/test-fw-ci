@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Person Name',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['Tony', 'Steve'],
- 'values': ['Tony', 'Steve']}

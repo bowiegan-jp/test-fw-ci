@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Date',
- 'value_options': ['Custom Date:', 'Custom Date:'],
- 'value_to_check': ['2020-09-15', '2021-03-15'],
- 'values': ['2020-09-15', '2021-03-15']}

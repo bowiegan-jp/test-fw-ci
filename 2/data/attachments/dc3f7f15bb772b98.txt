@@ -1,6 +1,0 @@
-Watchlists parameter:
-{'field_type': 'IP Address',
- 'txn_update': {'user_ipv4': '127.0.1.5'},
- 'value_options': ['IP Address:', 'IP Address:'],
- 'value_to_check': ['127.0.1.5', '127.0.1.200'],
- 'values': ['127.0.1.5', '127.0.1.200']}

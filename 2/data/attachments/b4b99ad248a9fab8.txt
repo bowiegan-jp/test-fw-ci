@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Month',
- 'value_options': ['Custom Month:', 'Custom Month:'],
- 'value_to_check': ['2021-05', '2021-03'],
- 'values': ['2021-05', '2021-03']}

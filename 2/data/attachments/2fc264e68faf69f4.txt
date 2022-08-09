@@ -1,5 +1,0 @@
-Groups parameter:
-{'field_type': 'Generic Text',
- 'value_options': ['Custom:', 'Custom:'],
- 'value_to_check': ['value1', 'value2'],
- 'values': ['value1', 'value2']}

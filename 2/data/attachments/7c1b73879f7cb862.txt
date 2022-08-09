@@ -1,2 +1,0 @@
-WARNING  root:conftest.py:243 Smart rule cleanup did not run as expected: Message: element not interactable
-  (Session info: headless chrome=103.0.5060.114)
