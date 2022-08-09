@@ -1,0 +1,6 @@
+{'code': 271,
+ 'decline_rule': None,
+ 'error': False,
+ 'score_reason': 'Low risk transaction',
+ 'sendforauth': 1,
+ 'sendforreview': 1}
