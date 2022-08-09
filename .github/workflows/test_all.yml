@@ -33,7 +33,7 @@ jobs:
           ELEMENT_WAIT_TIME: 3
           FW_URL: ${{ secrets.FW_URL }}
           TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
-          TEST_PWD: ${{ secrets.GH_PAT }}
+          TEST_PWD: ${{ secrets.TEST_PWD }}
           FW_CUST_ID: ${{ secrets.FW_CUST_ID }}
           FW_CUST_CODE: ${{ secrets.FW_CUST_CODE }}
           FW_API_VERSION: ${{ secrets.FW_API_VERSION }}
