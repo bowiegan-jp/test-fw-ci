@@ -1,1 +1,0 @@
-[{"uid":"b20fb409ecd9ba2e","name":"test_login_successful[chrome]","time":{"start":1657875142691,"stop":1657875148002,"duration":5311},"status":"broken","severity":"normal"},{"uid":"efe785859d552a60","name":"test_login_failed[chrome]","time":{"start":1657875141329,"stop":1657875142687,"duration":1358},"status":"passed","severity":"normal"}]
